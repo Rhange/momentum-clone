@@ -3,6 +3,6 @@
 
 
 # NomadCoders beginner's JS course
- <a href="https://academy.nomadcoders.co/p/javascript-basics-for-absolute-beginners-kr" target=_blank>
+ <a href="https://academy.nomadcoders.co/p/javascript-basics-for-absolute-beginners-kr" target="_blank">
  NomadCoders
  </a>
