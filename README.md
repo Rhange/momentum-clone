@@ -1,2 +1,2 @@
 # momentum-clone
- Clone momentum web app using JS
+ Clone momentum web app using JS with NomadCoders
