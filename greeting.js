@@ -5,6 +5,8 @@ const form = document.querySelector(".js-form"),
 const USER_LS = "currentUser",
   SHOWING_CN = "showing";
 
+greeting.style.color = "white";
+
 function saveName(text) {
   localStorage.setItem(USER_LS, text);
 }
@@ -41,6 +43,3 @@ function init() {
 }
 
 init();
-
-// 'local storage'
-// localStorage.setItem("me", true);

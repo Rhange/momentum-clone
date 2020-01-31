@@ -4,6 +4,8 @@ const toDoform = document.querySelector(".js-toDoForm"),
 
 const TODOS_LS = "toDos";
 
+toDoList.style.color = "white";
+
 let toDos = [];
 
 function deleteToDo(event) {
