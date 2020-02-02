@@ -1,12 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:400,600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
 body {
+  font-family: "Comfortaa", cursive;
+  margin: 0;
+  padding: 0;
   width: 100%;
   height: 100%;
+  color: white;
+  font-size: 20px;
   background-color: #34495e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.clock h1 {
+  font-size: 100px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 0;
+}
+
+h3 {
+  margin-top: 60px;
+}
+
+::placeholder {
   color: white;
+}
+
+.form input,
+.toDoForm input {
+  all: unset;
+  color: white;
+  text-align: center;
+}
+
+.form input {
+  font-size: 40px;
+}
+
+.toDoForm {
+  border-bottom: 2px solid white;
+  width: 350px;
+  padding: 5px;
+  width: 50%;
+}
+
+.toDoList {
+  margin: 0;
+  margin-top: 30px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.toDoList li {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.weather {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  display: flex;
 }
 
 .form,
@@ -33,6 +111,6 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: -1;
+  z-index: -5;
   animation: fadeIn 0.5s ease-in-out;
 }

@@ -29,7 +29,11 @@ function paintToDo(text) {
   const span = document.createElement("span");
   const newId = toDos.length + 1;
   delBtn.innerText = "✖";
-  delBtn.style.color = "red";
+  delBtn.style.backgroundColor = "rgba(0, 0, 0, 0)";
+  delBtn.style.border = "2px solid white";
+  delBtn.style.color = "white";
+  delBtn.style.fontSize = "16px";
+  delBtn.style.marginRight = "15px";
   delBtn.addEventListener("click", deleteToDo);
   span.innerText = text;
   li.appendChild(delBtn);
