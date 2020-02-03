@@ -1,10 +1,8 @@
-const toDoform = document.querySelector(".js-toDoForm"),
-  toDoInput = toDoform.querySelector("input"),
+const toDoForm = document.querySelector(".js-toDoForm"),
+  toDoInput = toDoForm.querySelector("input"),
   toDoList = document.querySelector(".js-toDoList");
 
 const TODOS_LS = "toDos";
-
-toDoList.style.color = "white";
 
 let toDos = [];
 
@@ -67,7 +65,7 @@ function loadToDos() {
 
 function init() {
   loadToDos();
-  toDoform.addEventListener("submit", handleSubmit);
+  toDoForm.addEventListener("submit", handleSubmit);
 }
 
 init();
