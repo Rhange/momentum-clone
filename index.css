@@ -29,15 +29,23 @@ body {
 .header .search {
   display: flex;
   align-items: center;
+  border-bottom: 3px solid white;
+}
+
+.search .fa-search {
+  padding-bottom: 5px;
+  margin-right: 10px;
+}
+
+.search label {
+  margin-right: 5px;
 }
 
 .search input {
   all: unset;
   margin-left: 10px;
-  padding-bottom: 5px;
   width: 200px;
-  border-bottom: 1px solid white;
-  text-align: center;
+  text-align: left;
 }
 
 .container {

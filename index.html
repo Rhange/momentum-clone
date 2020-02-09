@@ -6,39 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Momontom</title>
     <link rel="stylesheet" href="index.css" />
-    <script src="https://kit.fontawesome.com/7a20ba7db5.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/7a20ba7db5.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
-    <header class=header>
+    <header class="header">
       <form class="js-search search">
-        <label for="searchInput">
-          <i class="fab fa-google"></i>
-        </label>
-        <input type="text" class="js-searchInput searchInput" placeholder="Google Search">
+        <i class="fas fa-search"></i>
+        <div class="search_form">
+          <input type="text" class="js-searchInput searchInput" />
+          <label for="searchInput">
+            <i class="fab fa-google"></i>
+          </label>
+        </div>
       </form>
       <span class="js-weather weather"></span>
-      </header>
+    </header>
     <div class="container">
       <div class="js-clock clock">
         <h1>00:00</h1>
       </div>
       <form class="js-form form">
-        <input type="text" placeholder="What is your name?" onfocus="this.placeholder = ''" />
+        <input
+          type="text"
+          placeholder="What is your name?"
+          onfocus="this.placeholder = ''"
+        />
       </form>
       <h2 class="js-greetings greetings"></h2>
       <h3 class="focus">What is your main focus for today?</h3>
       <form class="js-toDoForm toDoForm">
         <input type="text" />
       </form>
-      <h6>Photo by Doosan Shin</h6>
       <ul class="js-toDoList toDoList"></ul>
-      <script src="todo.js"></script>
-      <script src="clock.js"></script>
-      <script src="greeting.js"></script>
-      <script src="bg.js"></script>
-      <script src="weather.js"></script>
-      <script src="search.js"></script>
-    </body>
-  </div>
+      <footer class="footer">
+        <h6>Photo by Doosan Shin</h6>
+      </footer>
+    </div>
+    <script src="todo.js"></script>
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+    <script src="search.js"></script>
+  </body>
 </html>
