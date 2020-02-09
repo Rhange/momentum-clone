@@ -49,7 +49,7 @@ body {
 }
 
 .header .weather {
-  margin-right: 20px;
+  text-align: right;
 }
 
 .container {
