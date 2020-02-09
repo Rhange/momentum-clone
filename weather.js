@@ -12,8 +12,12 @@ function getWeather(lat, lon) {
     })
     .then(function(json) {
       const temperature = json.main.temp,
-        place = json.name;
-      weather.innerText = `${Math.round(temperature)}° @ ${place}`;
+        place = json.name,
+        country = json.sys.country,
+        state = json.weather[0].main;
+      weather.innerText = `${state} ${Math.round(
+        temperature
+      )}° \n ${place}, ${country}`;
     });
 }
 
