@@ -1,8 +1,9 @@
+[![time tracker](https://wakatime.com/badge/github/Rhange/momentum-clone.svg)](https://wakatime.com/badge/github/Rhange/momentum-clone)
+
 # Momentum-Clone
- Clone momentum web app using JS with NomadCoders.
 
+Cloning Momentum Web App
 
-# NomadCoders beginner's JS course
- <a href="https://academy.nomadcoders.co/p/javascript-basics-for-absolute-beginners-kr">
- NomadCoders
- </a>
+This cloning project was done with NomadCoders Academy
+
+[NomadCoders_Vanilla JS](https://academy.nomadcoders.co/p/javascript-basics-for-absolute-beginners-kr)
