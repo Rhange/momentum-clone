@@ -4,8 +4,8 @@
 
 # Momentum-Clone
 
-Cloning Momentum Web App
+ Cloning Momentum Web App
 
-This cloning project was done with NomadCoders Academy
+ This cloning project was progressed with NomadCoders Academy
 
 [NomadCoders_Vanilla JS](https://academy.nomadcoders.co/p/javascript-basics-for-absolute-beginners-kr)
