@@ -14,11 +14,12 @@ function genRandom() {
   return number;
 }
 
-// Math.floor , Math.ceil
+const handleCM = e => e.preventDefault();
 
 function init() {
   const randomNumber = genRandom();
   paintImage(randomNumber);
+  body.addEventListener("contextmenu", handleCM);
 }
 
 init();
