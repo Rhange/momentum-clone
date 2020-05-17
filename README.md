@@ -4,13 +4,19 @@
 
 # Momentum-Clone
 
- Cloning Momentum Web App
+Cloning Momentum Web App
 
- This cloning project was progressed with NomadCoders Academy
+This cloning project was progressed with NomadCoders Academy
 
 [NomadCoders_Vanilla JS](https://academy.nomadcoders.co/p/javascript-basics-for-absolute-beginners-kr)
 
+<<<<<<< Updated upstream
 
 # My Project result
 
 [Rhange_Momentum Clone](https://momentum-clone-2kwb5g2f1.now.sh/)
+=======
+## TODOS
+
+- [ ] 배경이미지를 사용자의 취향에 맞게 추가/제거 가능하도록 만들기
+>>>>>>> Stashed changes
